@@ -1,0 +1,84 @@
+
+header{
+display: flex;
+justify-content: space-between;
+padding: 0px 20px 0px 20px;
+margin: 0;
+background-color: #fffefe;
+border-bottom: 1px solid rgb(226, 232, 240);
+align-items: center;
+min-height: 60px;
+gap: 10px;
+}
+
+
+#project-logo{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+#User-logo{
+
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+            gap:15px;
+        
+}
+
+
+
+#searchBar{
+
+
+display: flex;
+
+ border: 1px solid  rgb(206, 207, 209) ;
+ border-bottom: none;
+            
+            border-radius: 30px 30px 0px 0px;
+justify-content: center;
+background-color: #2f2c2c;
+
+}
+
+ #searchBar input{
+    margin: 10px  0px 10px 0px;
+  
+text-align: center;
+min-height: 28px;
+width: 300px;
+border-radius: 20px 0px 0px 20px;
+border: 1px solid rgb(191, 194, 197) ;
+border-right: none;
+}
+
+#searchBar button{
+
+min-height: 30px;
+
+border-left: none;
+   background-color: white;
+    border: 1px solid rgb(191, 194, 197) ;
+    border-radius: 0px 20px 20px 0px;
+margin: 10px  0px 10px 0px;
+
+
+}
+
+
+@media (max-width:600px){
+
+ #searchBar input{
+ 
+text-align: center;
+min-height: 28px;
+width: 180px;
+border-radius: 20px 0px 0px 20px;
+border: 1px solid rgb(191, 194, 197) ;
+
+}
+    
+}

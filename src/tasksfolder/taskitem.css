@@ -1,0 +1,75 @@
+
+
+.task {
+
+display: flex;
+gap: 10px;
+align-items: center;
+padding: 5px 3px;
+border-bottom: 1.2px solid #e3e5e8;
+position: relative;
+justify-content: space-around;
+
+}
+
+.task input{
+        appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid
+     black;
+    border-radius: 80%;
+    cursor: pointer;
+    position: relative;
+
+} 
+
+.task input:checked{
+    background-color: green;
+}
+
+ #task-content{
+
+    width: 85%;
+}
+
+
+ .task #task_content .task-name{
+
+
+    font-size: 14px;
+    color: #1E293B;
+    font-weight: 400;
+    line-height: 1.4;
+
+
+
+}
+
+   #logs {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+
+ #logs .due-date {
+        font-size: 11px;
+    color: #94A3B8;
+
+}
+
+ .task .delete_task{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+.complete{
+    text-decoration: line-through;
+    opacity: 0.6;
+}

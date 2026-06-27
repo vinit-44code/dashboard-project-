@@ -1,0 +1,79 @@
+
+
+
+#wheaterBlock{
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+#wheatherHead{
+
+
+text-align: center;
+font-size: large;
+font-weight: 700;
+text-decoration: underline;
+margin-bottom: 20px ;
+
+
+}
+
+
+#wheatherBox{
+
+width: 20%;
+min-height: 250px;
+ border: 1px solid #c2c5c9;
+ border-radius: 30px;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content:space-around;
+ 
+
+}
+
+
+#wheatherBox span{
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+#wheatherBox input {
+
+height: 50px;
+border-radius: 20px;
+border: 1px solid #c2c5c9;
+text-align: center;
+font-size: 1.2rem;
+
+}
+
+
+#wheatherBox button{
+
+
+height:40px;
+border-radius: 20px;
+border: 1px solid #c2c5c9;
+text-align: center;
+font-size: 1.2rem;
+
+
+
+}
+
+#wheatherBox button:active{
+transform: scale(0.9);
+
+}

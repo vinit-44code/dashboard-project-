@@ -1,0 +1,29 @@
+*{
+    margin: none;
+}
+
+body{
+    background-color:#F8FAFC;;
+    margin: 0;
+}
+
+
+ .hidden {
+    display: none  !important; 
+}
+
+
+#mainDisplay{
+        
+        
+        padding: 25px;
+
+}
+
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    min-height: 100dvh;
+   
+}

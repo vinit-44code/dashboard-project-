@@ -1,0 +1,43 @@
+#task-titel-add{
+display: flex;
+justify-content: space-between;
+font-weight: 800;
+padding: 0px 20px 0px 20px;
+align-items: center;
+margin-bottom: 10px;
+}
+
+#Task-add{
+width: 80px;
+height: 30px;
+background-color: rgb(95, 175, 206);
+border: none;
+border-radius: 30px;
+
+
+}
+
+#Task-add:active{
+
+    transform: scale(0.9);
+}
+
+#filter{
+
+    border-bottom:1px solid  rgb(226, 232, 240)   ;
+    display: flex;
+    gap: 2px;
+    margin-bottom: 20px;
+
+}
+
+#filter button {
+    background-color:transparent;
+    border: none;
+
+}
+
+
+#filter .active{
+    border-bottom: 2px solid blue;
+}
