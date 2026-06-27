@@ -125,7 +125,7 @@ gap: 20px;
 
 .newNote #controls button{
 
-width: 15%;
+
 height: 35px;
 appearance: none;
 border: none;
@@ -135,7 +135,7 @@ border-radius: 10px;
 
 .newNote #controls #close{
 
-width: 5%;
+
 appearance: none;
 border: none;
 background-color: rgb(250, 67, 67,0.7);
