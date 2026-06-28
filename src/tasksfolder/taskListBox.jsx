@@ -2,7 +2,7 @@
 import NewTask from './Taskitem'
 
 
-export default function taskListBox({taskList,SetTaskList}){
+export default function taskListBox({taskList,SetTaskList, realtaskList}){
 
 return(<>
         <section id='taskeview'>
@@ -15,10 +15,11 @@ return(<>
 
                                  taskList.map((task)=>{
                                          return <NewTask 
+                                      
                                          key={task.id} 
                                          task={task}
                                           id={task.id} 
-                                          tasklist={taskList}
+                                          tasklist={realtaskList}
                                           setTasklist={SetTaskList}/>
                      
                                  })

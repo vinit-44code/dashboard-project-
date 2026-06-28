@@ -79,6 +79,7 @@ let filterList = () => {
                    />
 
                  <TaskListBox 
+                 realtaskList = {tasklist}
                  taskList={filterList()}
             SetTaskList = {SetTaskList} 
        

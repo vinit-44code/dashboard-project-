@@ -3,7 +3,7 @@
 import {v4 as uuidv4} from 'uuid'
 
 
-export default function OverLayerNotes({noteList,Setnotes, changeClass,Classtoggle,noteInput,content,updateTitel,updateContent,  SetNoteInput, SetContent}){
+export default function OverLayerNotes({noteList,Setnotes, changeClass,Classtoggle,noteInput,content,updateTitel,updateContent,SetNoteInput, SetContent}){
 
 
 

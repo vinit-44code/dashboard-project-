@@ -68,6 +68,7 @@ let updateContent = (event)=>{
 let[searchNote,SetsearchNote] = useState("");
 
 
+
 let filterNote = note.filter((notes)=>{
 
     return notes.title.toLowerCase().includes(searchNote.toLowerCase())
@@ -86,6 +87,7 @@ return(
                             <NoteHeader/>
 
                             <NoteListBox 
+                            realList = {note}
                             noteList ={filterNote}
                             setNoteList = {Setnote}
                             changeClass = {changeClass}

@@ -3,7 +3,7 @@ import './noteList.css'
 import NoteItem from "./noteItems"
 
 
-export default function NoteListBox({noteList,changeClass, Classtoggle,updateTitel,updateContent,setNoteList,SetsearchNote,searchNote}){
+export default function NoteListBox({noteList,changeClass, Classtoggle,updateTitel,updateContent,setNoteList,SetsearchNote,searchNote,realList}){
 
 
 
@@ -43,7 +43,7 @@ return(<>
                                          updateContent ={updateContent}
                                          changeClass={changeClass}
                                          Classtoggle={Classtoggle}
-                                         noteList = {noteList}
+                                         noteList = {realList}
                                          setNoteList = {setNoteList}
                                          
                                         />
